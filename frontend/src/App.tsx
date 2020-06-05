@@ -2,13 +2,12 @@ import React from 'react';
 
 import './App.css';
 
-import './pages/Home'
-import Home from './pages/Home';
-import CreatePoint from './pages/CreatePoint';
+import Routes from './routes/routes';
+
 function App() {
   return (
       <header>
-        <Home />
+        <Routes />
       </header>
 
   );
